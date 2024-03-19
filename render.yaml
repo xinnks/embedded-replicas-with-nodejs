@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: embedded-replicas-with-nodejs
+    env: node
+    repo: https://github.com/tursodatabase/embedded-replicas-with-nodejs
+    startCommand: npm run start
+
