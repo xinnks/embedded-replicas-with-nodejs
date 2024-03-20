@@ -9,8 +9,6 @@ A recipe book CRUD API featuring [Turso embedded replicas](https://docs.turso.te
 
 ## Development
 
-### Set up database
-
 Create a turso database.
 
 ```sh
@@ -34,13 +32,13 @@ TURSO_DATABASE_URL
 TURSO_AUTH_TOKEN
 ```
 
-### Run project
-
-Install dependencies:
+Install project dependencies:
 
 ```sh
 npm i
 ```
+
+## Run project
 
 In development:
 
@@ -54,7 +52,9 @@ In production:
 npm run start
 ```
 
-Add a new recipe:
+## Send requests
+
+Add a new task:
 
 ```sh
 curl "http://127.0.0.1:8080/todos" \
