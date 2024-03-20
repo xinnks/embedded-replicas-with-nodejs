@@ -2,7 +2,14 @@
 
 A recipe book CRUD API featuring [Turso embedded replicas](https://docs.turso.tech/features/embedded-replicas) and [HonoJs](https://github.com/honojs/hono).
 
+## Pre-requisites
+
+- The [Turso CLI](https://docs.turso.tech/cli/installation).
+- [NodeJs](https://nodejs.org/en/download/)
+
 ## Development
+
+### Set up database
 
 Create a turso database.
 
@@ -27,7 +34,13 @@ TURSO_DATABASE_URL
 TURSO_AUTH_TOKEN
 ```
 
-## Run project
+### Run project
+
+Install dependencies:
+
+```sh
+npm i
+```
 
 In development:
 
