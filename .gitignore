@@ -2,3 +2,4 @@ node_modules
 *.db-*
 .http
 .env
+fly.toml
